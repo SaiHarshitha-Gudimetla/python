@@ -1,0 +1,13 @@
+Conditional Statements:
+    1. Simple if - perform in one condition, one action.
+    Syntax: if condition:
+                #Statement     
+    2. if-else - one condition, two actions if it true or false.
+    3. elif ladder - more than one condition .
+    4. Nested  if - condition within the condition.
+
+Real-time Example:
+1. Simple If - Smart dustbin - If the dustbin is full, send a notification.
+2. If-else - Online shopping - Coupon valid → Apply discount, Invalid → Reject coupon.
+3. elif ladder - Food ordering in size Small, Medium, Large meal.
+4. Nested if - Online examination - Student logged in, Webcam permission granted, Microphone permission granted.
