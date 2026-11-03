@@ -1,0 +1,24 @@
+Conditional Statements:
+    1. Simple if - perform in one condition, one action.
+    Syntax: if condition:
+                #Statement     
+    2. if-else - one condition, two actions if it true or false.
+    syntax: if condition:
+                #Statement
+            else:
+                #Statement
+    3. elif ladder - more than one condition .
+    syntax: if condition:
+                #Statement
+            elif condition:
+                #Statement
+            else: 
+                #Statement
+    4. Nested  if - condition within the condition.
+    syntax: if condition:
+                if condition:
+                    #Statement
+                else:
+                    #Statement
+            else:
+                #Statement
