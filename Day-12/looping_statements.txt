@@ -1,0 +1,12 @@
+Looping Statements:
+    Loops are used to execute a block of code repeatedly until a 
+    condition is met or all items in a sequence are processed. 
+
+There are two types:
+    1.for Looping :
+        For loops is used to iterate over a sequence such as a list, tuple, string or range. 
+        It executes a block of code once for each item in the sequence.  
+        Syntax:
+            for i in seq:
+                #Statements
+    2. while loop
