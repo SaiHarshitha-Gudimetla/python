@@ -1,0 +1,58 @@
+Function:
+=========
+
+A function is a reusable block of code that performs a specific task.
+
+We need functions because they help us:
+---------------------------------------
+1. Reuse code – write the code once and use it multiple times.
+2. Avoid repetition – no need to write the same code again and again.
+3. Organize code – divide a large program into smaller, manageable parts.
+4. Make code easier to understand – each function can perform one specific task.
+5. Make debugging easier – errors can be found and fixed in a specific function.
+
+Features of Functions in Python
+-------------------------------
+1. Reusability – A function can be written once and used many times.
+2. Modularity – A large program can be divided into smaller functions.
+3. Code reduction – Functions reduce repeated code.
+4. Easy debugging – Errors can be found and fixed easily.
+5. Easy maintenance – Changes can be made inside one function without changing the entire program.
+6. Readability – Functions make the program easier to understand.
+7. Accepts inputs – A function can receive values through parameters.
+8. Returns output – A function can return a result using return.
+
+Types of Functions in Python
+----------------------------
+There are mainly two types:
+1. Built-in Functions
+.....................
+These are functions that are already provided by Python. We can directly use them.
+
+Examples:
+print()
+len()
+max()
+min()
+sum()
+type()
+
+
+Example:
+numbers = [10, 20, 30]
+print(len(numbers))
+
+
+Here, len() is a built-in function.
+2. User-defined Functions
+..........................
+These are functions created by the programmer according to their requirement.
+
+We create them using the def keyword.
+
+Example:
+def add(a, b):    
+    return a + b
+
+
+Here, add() is a user-defined function.
