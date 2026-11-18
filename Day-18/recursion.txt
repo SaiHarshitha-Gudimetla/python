@@ -1,0 +1,9 @@
+#Rcursion function - function is calling itself is called recursion function
+
+#function is called inside the function
+
+def func():
+    if cond:
+        #stat
+    func()
+func()
