@@ -1,0 +1,13 @@
+Gnerator:
+    it used to utilize the memeory and it saves memeory.
+    A Python generator is a special type of function that returns an iterator 
+    and produces a sequence of values one at a time. Instead of computing all 
+    values at once and storing them in memory, a generator uses the yield 
+    keyword to pause its execution, send back a value, and resume right where 
+    it left off when the next value is requested
+
+
+    yield keyword return the multiples times to excute the code.
+    but return can be used only once.
+
+    we have the function multiple times to excute all the cond
