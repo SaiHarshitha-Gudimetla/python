@@ -1,0 +1,59 @@
+Modules in python:
+In Python, Modules are files that contain Python code (functions, variables, and classes) 
+that we can reuse in another Python program.
+
+In simple words, a module helps us write code once and use it whenever we need it.
+
+1. Types of Python Modules
+There are three common categories:
+1. Built-in modules
+2. User-defined modules
+3. External modules
+
+1. Built-in Modules
+These modules are already available in Python. We don't need to install them.
+
+Some important built-in modules:
+Module	Purpose
+math	Mathematical operations
+random	Generate random numbers
+datetime	Work with dates and time
+os	Work with operating system
+sys	Work with Python system functions
+statistics	Calculate mean, median, etc.
+
+3. User-defined Modules
+A user-defined module is a Python file created by us.
+
+For example, create two files.
+
+File 1: calculator.py
+
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+File 2: main.py
+
+import calculator
+
+print(calculator.add(10, 5))
+print(calculator.sub(10, 5))
+
+4. External Modules
+External modules are developed by other people and installed separately.
+
+Some examples:
+Module	Purpose
+NumPy	Numerical calculations
+Pandas	Data analysis
+Flask	Web development
+Django	Web development
+Scikit-learn	Machine learning
+Requests	Send HTTP requests
+
+when ever we are importing the modules, very large file names use analysis
+ex: import logic as logic
+
